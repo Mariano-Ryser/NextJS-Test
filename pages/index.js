@@ -29,7 +29,7 @@ export default function Home() {
           <ul >
             <li><Link href='/link'><a className={styles.a}>Esto es un Link totalmente centrado</a></Link></li>
             <li><Link href='/link2'><a className={styles.a}>Esto es otro link que esta vacio</a></Link></li>
-            <li><Link href='/link3'><a className={styles.a}>Esto es otro link que esta vacio</a></Link></li>
+            <li><Link href='/grid'><a className={styles.a}>Grid</a></Link></li>
             <li><Link href='/test'><a className={styles.a}> y Aqui es solo un Test</a></Link></li>
           </ul>
         </div>

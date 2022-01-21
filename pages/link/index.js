@@ -6,15 +6,13 @@ import Footer from '../components/footer'
 
 export default function link() {
     return (
-        <>
+      <>
         
         <Header />
-
-          <Link href="/"><a> Go home </a></Link>
-
+         <h1>Titulo 1</h1>
         <Footer />
     
-    </>
+      </>
      
     )
 }

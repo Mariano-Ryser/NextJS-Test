@@ -7,7 +7,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  border: chartreuse solid 10px;
+  /* border: chartreuse solid 10px; */
 }
 
 .title {

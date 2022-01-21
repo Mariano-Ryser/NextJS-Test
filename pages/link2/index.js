@@ -7,9 +7,8 @@ export default function link() {
 <>
     
        <Header />
-          <h1> Esto es Otro</h1>
-          <Link href="/"><a> Go home </a></Link>
-
+          <h1>Titulo 2</h1>
+        
         <Footer />
 
      </>

@@ -1,0 +1,45 @@
+.grid{
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    grid-auto-rows: 240px;
+    background-color: rgb(0, 0, 0);
+    padding: 20px;
+   
+}
+.card{text-align: center;
+    background-image: url();
+    background: rgb(14, 209, 14);
+    border-radius: 10px;
+    transition: 0.7s;
+}
+.card:hover{
+    cursor: pointer;
+    background: rgb(251, 255, 9);
+}
+
+.cardrow{
+    text-align: center;
+    grid-row: span 2 / auto;
+    background: rgb(36, 34, 156);
+    border-radius: 10px;
+    transition: 0.7s;
+}
+.cardrow:hover{
+    cursor: pointer;
+    background: rgb(251, 255, 9);
+}
+
+.cardcol{
+    text-align: center;
+    grid-row: span 2 / auto;
+    background: rgb(196, 7, 7);
+    border-radius: 10px;
+    transition: 0.7s;
+}
+.cardcol:hover{
+    cursor: pointer;
+    background: rgb(251, 255, 9);
+}
+
+

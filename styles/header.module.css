@@ -1,8 +1,13 @@
 .header{
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: left;
     height: 100px;
-    border-bottom: 13px solid #0ca807;
+    border-bottom: 6px solid #000000; 
      /* box-shadow: rgb(184, 184, 184) 0px 0px 50px,inset rgb(219, 219, 219) 0px 0px 60px;  */
   }
+  
+  .ul{
+     display: flex;
+  }
+

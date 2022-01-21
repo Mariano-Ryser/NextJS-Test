@@ -4,9 +4,8 @@
     justify-content: center;
     align-items: center;
 
-    border-top: 13px solid #0ca807;
+    border-top: 6px solid #000000;
     /* box-shadow: rgb(184, 184, 184) 0px 0px 50px,inset rgb(235, 235, 235) 0px 0px 70px; */
-
     position: absolute;
     bottom: 0;
     width: 100%;
