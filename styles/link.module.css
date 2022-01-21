@@ -1,0 +1,13 @@
+.mega{
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(231, 231, 231);
+    justify-content: center;
+  }
+  .section{
+    width: 80%;
+    text-align: center;
+    background-color: rgb(107, 107, 107);
+    color: white;
+  }

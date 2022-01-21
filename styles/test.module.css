@@ -1,0 +1,42 @@
+.mega{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+ 
+  .junior{
+     margin-top: 100px; 
+    height: 200px;
+    width: 200px;
+    background-color: rgb(17, 202, 0);
+    border-radius: 100%;
+    box-shadow: inset rgb(207, 207, 207) -90px -90px 120px;
+    transition: 1s;
+    cursor: pointer;
+    animation: junior 1s 3 alternate ;
+  }
+  .junior:hover{
+    margin-top: 0px; 
+    height: 68vh;
+    width: 95.9vw;
+    border-radius: 0%;
+    background-color: rgb(44, 145, 19);
+    box-shadow: inset rgb(54, 54, 54) 70px 10px 120px ; 
+   }
+   @keyframes junior {
+    0%{
+      height: 200px;
+      width: 200px;
+    }
+    50%{
+      height: 270px;
+      width: 270px;
+      transform: translateY(-20px)translateX(-30px);
+      background-color: rgb(23, 124, 14);
+      box-shadow: inset rgb(117, 117, 117) 70px 10px 120px ;
+    }
+    100% {
+      height: 200px;
+      width: 200px;
+    }
+  }

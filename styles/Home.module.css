@@ -1,0 +1,35 @@
+
+.main {
+  min-height: 69vh;
+  padding: 4rem 0;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: chartreuse solid 10px;
+}
+
+.title {
+  margin: 0;
+  line-height: 1.15;
+  font-size: 4rem;
+}
+
+@media (max-width: 600px) {
+  .grid {
+    width: 100%;
+    flex-direction: column;
+  }
+  .title {
+    margin: 0;
+    line-height: 1.15;
+    font-size: 2.5em;
+  }
+  .a{
+   font-size: 1.5rem;
+   color: crimson;
+  }
+
+
+}
