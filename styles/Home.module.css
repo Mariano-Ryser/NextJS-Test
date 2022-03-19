@@ -1,26 +1,34 @@
 
+
 .main {
-  min-height: 69vh;
+  min-height: 50vh;
   padding: 4rem 0;
   flex: 1;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  /* border: chartreuse solid 10px; */
 }
 
 .title {
+  color: rgb(17, 17, 17);
   margin: 0;
   line-height: 1.15;
   font-size: 4rem;
+  text-align: center;
+  padding: 0rem 5rem;
+}
+.parraf{
+  font-weight: 500;
+  padding: 10px 50px;
+  text-align: center;
+  color: rgb(20, 20, 20);
 }
 
+
+
 @media (max-width: 600px) {
-  .grid {
-    width: 100%;
-    flex-direction: column;
-  }
+  
   .title {
     margin: 0;
     line-height: 1.15;
@@ -30,6 +38,4 @@
    font-size: 1.5rem;
    color: crimson;
   }
-
-
 }
