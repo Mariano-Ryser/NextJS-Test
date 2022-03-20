@@ -5,7 +5,8 @@
   min-height: 10vh;
   /* background-color: rgb(255, 210, 210); */
   color: black;
-  border-bottom: 2px solid rgb(221, 202, 202);
+  border-bottom: 2px solid rgb(131, 131, 131);
+  font-family: 'Fredoka', sans-serif;
 }
 .ul{
     display: flex;
@@ -26,10 +27,49 @@
   }
   .logo{
     color: rgb(34, 34, 34);
+    margin-top: 10px;
     margin-left: 2rem;
     margin-right: auto;
-    font-size: 2.5rem;
-    font-weight: 700;
     cursor: pointer;
   }
   
+
+  
+@media (max-width: 600px) {
+  
+ 
+.nav{
+  display: flex;
+  align-items: center;
+  min-height: 10vh;
+  /* background-color: rgb(255, 210, 210); */
+  color: black;
+  border-bottom: 2px solid rgb(221, 202, 202);
+}
+.ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .li{
+      font-size: 1rem;
+      color: rgb(0, 0, 0);
+      font-weight: 600;
+      list-style: none;
+      padding: 25px 20px;
+      margin-right: 1rem;
+  }
+  .li:hover{
+      background-color: lightcoral;
+      cursor: pointer;
+  }
+  .logo{
+    color: rgb(34, 34, 34);
+    margin-left: 1rem;
+    margin-right: auto;
+    font-size: 1.5rem;
+    font-weight: 600;
+    cursor: pointer;
+  }
+  
+}

@@ -4,7 +4,7 @@ import Link from 'next/link';
 const Footer = () => {
   return (
     <footer className='footer'>
-        Nashezaro
+        Nas
     </footer>
   )
 }
