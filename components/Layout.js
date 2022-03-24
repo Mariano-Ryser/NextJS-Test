@@ -1,10 +1,12 @@
-import Nav from "../components/nav/Nav"
+import NavRespon from "../components/navRespon/NavRespon"
 import Footer from "./footer/Footer";
 
 const Layout = ({ children}) => {
     return (
         <div className="content">
-            <Nav />
+            <NavRespon />
+            
+            
              { children }
             <Footer />
         </div>
