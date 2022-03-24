@@ -10,9 +10,7 @@ function MyApp({ Component, pageProps }) {
         <meta name="description" content="default" />
         <title>Wantanera</title>
 
-        <style>
-         @import url('https://fonts.googleapis.com/css2?family=Fredoka&display=swap');
-        </style>
+        
       </Head>
       <Layout>
           <Component {...pageProps} />
