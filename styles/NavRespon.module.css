@@ -7,12 +7,26 @@
   color: black;
   border-bottom: 2px solid rgb(0, 0, 0);
   font-family: 'Fredoka', sans-serif;
+  opacity: 100%;
+  transform: translateY(0%);
+  /* animation: nav 0.8s 1 ease-in-out; */
 }
+/* @keyframes nav{
+  0%{
+    opacity: 0%;
+    transform: translateY(-100%);
+  }
+  100%{
+    opacity: 100%;
+    transform: translateY(0%);
+  }
+} */
+
 .navToggle{
   position: absolute;
   right: 0;
   top: 5rem;
-  height: 30rem;
+  
   width: 20rem;
   background-color: #bbbbbb;
   border: solid rgb(0, 0, 0) 2px;
@@ -23,7 +37,6 @@
 @keyframes to {
   from{opacity: 0%;}
   to{opacity: 100%;}
-  
 }
 .img{
   height: 40px;
@@ -32,9 +45,7 @@
   cursor: pointer;
 }
 
-.ulRes{
-   
-  }
+
   .li{
       font-size: 1.5rem;
       color: rgb(0, 0, 0);
@@ -68,21 +79,29 @@
   color: black;
   border-bottom: 2px solid rgb(110, 110, 110);
 }
-.ul{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
+.navToggle{
+  position: absolute;
+  right: 0;
+  top: 5.6rem;
+  
+  width: 12rem;
+  background-color: #bbbbbb;
+  border: solid rgb(0, 0, 0) 2px;
+  transition: 0.4s;
+  opacity: 100%;
+  animation: to 0.5s 1 ease-in-out ;
+}
+
   .li{
       font-size: 1rem;
       color: rgb(0, 0, 0);
       font-weight: 600;
       list-style: none;
-      padding: 25px 20px;
+      padding: 10px 20px;
       margin-right: 1rem;
   }
   .li:hover{
-      background-color: lightcoral;
+      background-color: rgb(50, 202, 30);
       cursor: pointer;
   }
   .logo{

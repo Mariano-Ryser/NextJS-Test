@@ -27,6 +27,8 @@ const NavRespon = () => {
           <ul className={styles.ulRes}>
             <Link href="/"><li className={styles.li}>Home</li></Link>
             <Link href="/about"><li className={styles.li}>About</li></Link>
+            <Link href="/english"><li className={styles.li}>English</li></Link>
+            <Link href="/deutsch"><li className={styles.li}>Deutsch</li></Link>
         </ul>
       </div>
       }
