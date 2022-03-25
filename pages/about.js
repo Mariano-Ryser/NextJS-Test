@@ -6,15 +6,17 @@ const about = () => {
     <div className={styles.container}>
     <main className={styles.main}>
       <h1 className={styles.title}>
-      About me?
+      About this web?
       </h1>
       
          <p className={styles.parraf}> 
          
          This is just an informative blog, in which I can freely write my ideas and my notes. 
-      Currently I am learning a bit of everything, but I need to focus on learning English, German, and as if that were not enough, programming.
+      Currently I am learning a bit of everything, but I need to focus on learning English,
+       German, and as if that were not enough, programming. XD
+    </p>
 
-</p>
+ 
 
     </main>
  
