@@ -1,12 +1,4 @@
-.verb{
-    
-}
-.article{
 
-}
-.rot{
-    color: red;
-}
 
 
 .main {
@@ -30,7 +22,6 @@
   }
   
   .parraf{
-    font-weight: 500;
     padding: 10px 50px;
     text-align: left;
     font-size: 1.5rem;
@@ -56,7 +47,7 @@
     .title {
       margin: 0;
       line-height: 1.15;
-      font-size: 2.5em;
+      font-size: 1.7em;
     }
     .parraf{
       font-weight: 500;
