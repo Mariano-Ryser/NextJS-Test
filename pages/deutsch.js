@@ -20,7 +20,7 @@ const Deutsch = () => {
       Das <b>Wahrzeichen</b> von Wien. Diese alte
       gotische Kirche wollen alle Besucher sehen. Wer Zeit hat, kann
       den Turm besteigen oder die Katakomben unter der Kirche besichtigen.
-      Die "Pummerin" ist die grösste Glocke Österreichs.
+      Die 'Pummerin' ist die grösste Glocke Österreichs.
       Sie hängt im Nordtrum un kann mit einem Aufzug erreicht 
       werden. Familie Huber ist <b>beeindruckt</b> Sie <b>zünden</b> in der Kirche 
       eine <b>Kerze</b> an und gehen weiter. 
@@ -42,16 +42,6 @@ const Deutsch = () => {
       Sie wollten Noch zum wunderschönen Schloss <b>Schönbrunn</b> und in der Tiergarten.
       Dafür <b>reicht</b> die Zeit aber nicht. Das machen sie beim nächsten Besuch in Wien.
      
-
-
-
-
-
-
-      
-      
-      
-      
 
          
       </p>
