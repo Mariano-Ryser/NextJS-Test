@@ -3,7 +3,7 @@ html {
   position: relative;
 }
 body {
-  background-color: #bbbbbb;
+  background-color: #bbbbbb; 
   color: rgb(0, 0, 0);
   padding: 0;
   margin: 0;
@@ -20,10 +20,6 @@ button{
   height: 30px;
   width: 100px;
 }
-
-
-
-
 
 .footer{
   display: block;

@@ -7,18 +7,26 @@ import Image from "next/image"
 
 
 
-export default function Home({joke}) {
+export default function Home({showNav}) {
   
   
   return (
    
     <div className={styles.container}>
-      <main className={styles.main}>
+        <main className={styles.main}>
         <h1 className={styles.title}>
-        Hello! 
-        </h1>
+      Texte auf Deutsch
+      </h1>
+      
+         <p className={styles.parraf}> 
+         
+         Ich bin sehr froh, dass ich eine Website für mein eigenes Studio erstellen kann.
+         Hier werde ich auf Deutsch geschriebene Texte hinzufügen, die man während einer Reise,
+         vielleicht im Zug oder vor dem Einschlafen lesen kann.
+      </p>
+      <br></br>
         
-           <p className={styles.parraf}> </p>
+          
     
       </main>
     {/* <div>

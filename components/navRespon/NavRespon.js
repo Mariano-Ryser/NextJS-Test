@@ -22,7 +22,7 @@ const NavRespon = () => {
         </div> 
       {
         showNav &&
-        <div className={styles.navToggle}
+      <div className={styles.navToggle}
         onMouseLeave={Mostrar}>
           <ul className={styles.ulRes}>
             <Link href="/"><li className={styles.li}>Home</li></Link>
