@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import Link from 'next/link';
 import styles from "../../styles/NavRespon.module.css"
-import Image from "next/image"
 
 const NavRespon = () => {
 
@@ -14,7 +13,6 @@ const NavRespon = () => {
   return (
     <nav className={styles.nav}>
         
-        <Link href="/" ><div className={styles.logo}><Image src="/logo.png" height={50} width={100}></Image></div></Link>
         <div>
           <img className={styles.img} src='/burger.png'
            onClick={Mostrar}
@@ -26,10 +24,10 @@ const NavRespon = () => {
         onMouseLeave={Mostrar}>
           <ul className={styles.ulRes}>
             <Link href="/"><li className={styles.li}>Home</li></Link>
-            <Link href="/about"><li className={styles.li}>About</li></Link>
+            {/* <Link href="/about"><li className={styles.li}>About</li></Link>
             <Link href="/english"><li className={styles.li}>English</li></Link>
             <Link href="/deutsch"><li className={styles.li}>Deutsch</li></Link>
-            <Link href="/wortschatz"><li className={styles.li}>Wortschatz</li></Link>
+            <Link href="/wortschatz"><li className={styles.li}>Wortschatz</li></Link> */}
         </ul>
       </div>
       }
