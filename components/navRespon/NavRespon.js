@@ -14,7 +14,7 @@ const NavRespon = () => {
   return (
     <nav className={styles.nav}>
         
-        <Link href="/" ><div className={styles.logo}><Image src="/logo.png" height={50} width={100}></Image></div></Link>
+        
         <div>
           <img className={styles.img} src='/burger.png'
            onClick={Mostrar}
