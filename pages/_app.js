@@ -9,12 +9,13 @@ function MyApp({ Component, pageProps }) {
       <Head>
         <meta name="description" content="default" />
         <title>Wantanera</title>
-
-        
       </Head>
+
       <Layout>
           <Component {...pageProps} />
       </Layout>
+      
+
     </>
   )
 }

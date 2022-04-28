@@ -1,0 +1,130 @@
+.presentation{
+    height: 100vh;
+    background-color: black;
+  }
+  .contact{
+    z-index: 3;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+     /* border: dashed white 4px;  */
+    width: 10rem;
+    height: 60%;
+    overflow: hidden;
+  }
+  .github{
+    z-index: 2;
+    margin: 2rem;
+    height: 5rem;
+    width: 5rem;
+    background-image: url(/github.png);
+    background-size: cover;
+    transition: 0.2s;
+    animation: ani 1s 1 ease-in-out;
+  }
+  .github:hover{
+   transform: scale(1.09) rotate(3deg);
+   box-shadow: inset black 0px 0px 0px;
+  }
+  
+  .linkedin{
+    z-index: 2;
+    margin: 2rem;
+    height: 5rem;
+    width: 5rem;
+    background-image: url(/linkedin.png);
+    background-size: cover;
+    transition: 0.2s;
+    animation: ani 1s 1 ease-in-out;
+    /* box-shadow: inset black 0px 0px 40px; */
+  }
+  .linkedin:hover{
+   transform: scale(1.09) rotate(3deg);
+   box-shadow: inset black 0px 0px 0px;
+  }
+  .twiter{
+    z-index: 2;
+    margin: 1.97rem;
+    height: 4.7rem;
+    width: 4.7rem;
+    background-image: url(/twiter.png);
+    background-size: cover;
+    transition: 0.2s;
+    animation: ani 1s 1 ease-in-out;
+    /* box-shadow: inset black 0px 0px 40px; */
+    
+  }
+  .twiter:hover{
+   transform: scale(1.09) rotate(3deg);
+   box-shadow: inset black 0px 0px 0px;
+  }
+  @keyframes ani {
+    0%{transform: translateX(20rem);}
+    100%{transform: translateX(0rem);}
+    
+  }
+  
+  .bgfoto{
+    z-index: 1;
+    clip-path: polygon(51% 49%, 100% 0%, 100% 100%, 0% 100%);
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    height: 450px;
+    width: 350px;
+    background-color: rgb(13, 114, 0);
+  } 
+  
+  
+  
+  
+  @media screen and (max-width:450px){
+  
+    .github{
+        z-index: 2;
+        margin: 2rem;
+        height: 5rem;
+        width: 5rem;
+    }
+    .linkedin{
+        z-index: 2;
+        margin: 2rem;
+        height: 5rem;
+        width: 5rem;
+    }
+    .twiter{
+        z-index: 2;
+        margin: 2rem;
+        height: 5rem;
+        width: 5rem;
+    }
+  
+    .foto{
+        position: absolute;
+        left: 2rem;
+        top: 2rem;
+        background-image: url(/src/img/MR2.jpg);
+        background-size: cover;
+        height: 100px;
+        width: 100px;
+    }
+    .bg-foto{
+        
+        clip-path: polygon(51% 49%, 100% 0%, 100% 100%, 0% 100%);
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        height: 450px;
+        width: 350px;
+        background-color: rgb(13, 114, 0);
+    }
+    .contact{
+        z-index: 3;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+         /* border: dashed white 4px;  */
+        width: 10rem;
+        height: 23rem;
+    }
+  }

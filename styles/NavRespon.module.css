@@ -4,8 +4,8 @@
   align-items: center;
   min-height: 5rem;
   /* background-color: rgb(255, 210, 210); */
-  color: black;
-  border-bottom: 2px solid rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  border-bottom: 2px solid rgb(255, 255, 255);
   font-family: 'Fredoka', sans-serif;
   opacity: 100%;
   transform: translateY(0%);
@@ -24,22 +24,25 @@
 
 .navToggle{
   position: absolute;
-  right: 0;
+  left: 0;
   top: 5rem;
-  
   width: 20rem;
   background-color: #bbbbbb;
-  border: solid rgb(0, 0, 0) 2px;
+  border: solid rgb(124, 124, 124) 2px;
   transition: 0.4s;
   opacity: 100%;
   animation: to 0.5s 1 ease-in-out ;
+  transform: translateX(0%);
 }
 @keyframes to {
-  from{opacity: 0%;}
-  to{opacity: 100%;}
+  from{opacity: 0%;
+    transform: translateX(-100%);}
+  to{opacity: 100%;
+    transform: translateX(0%)}
 }
 .img{
   height: 40px;
+  margin-left: 2rem;
   margin-right: 2rem;
   margin-top: 0.3rem;
   cursor: pointer;
@@ -82,11 +85,11 @@
 .navToggle{
   position: absolute;
   right: 0;
-  top: 5.6rem;
-  
+  top: 5.1rem;
+
   width: 12rem;
   background-color: #bbbbbb;
-  border: solid rgb(0, 0, 0) 2px;
+  border: solid rgb(102, 102, 102) 2px;
   transition: 0.4s;
   opacity: 100%;
   animation: to 0.5s 1 ease-in-out ;
