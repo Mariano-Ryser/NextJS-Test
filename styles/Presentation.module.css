@@ -9,9 +9,10 @@
     right: 0;
      /* border: dashed white 4px;  */
     width: 10rem;
-    height: 60%;
+    height: 80%;
     overflow: hidden;
   }
+ 
   .github{
     z-index: 2;
     margin: 2rem;
@@ -20,9 +21,24 @@
     background-image: url(/github.png);
     background-size: cover;
     transition: 0.2s;
-    animation: ani 1s 1 ease-in-out;
+    animation: ani 0.3s 1 ease-in-out;
   }
   .github:hover{
+   transform: scale(1.09) rotate(3deg);
+   box-shadow: inset black 0px 0px 0px;
+  }
+
+  .insta{
+    z-index: 2;
+    margin: 2rem;
+    height: 5rem;
+    width: 5rem;
+    background-image: url(/insta.png);
+    background-size: cover;
+    transition: 0.2s;
+    animation: ani 0.6s 1 ease-in-out;
+  }
+  .insta:hover{
    transform: scale(1.09) rotate(3deg);
    box-shadow: inset black 0px 0px 0px;
   }
@@ -35,7 +51,7 @@
     background-image: url(/linkedin.png);
     background-size: cover;
     transition: 0.2s;
-    animation: ani 1s 1 ease-in-out;
+    animation: ani 0.9s 1 ease-in-out;
     /* box-shadow: inset black 0px 0px 40px; */
   }
   .linkedin:hover{
@@ -47,10 +63,11 @@
     margin: 1.97rem;
     height: 4.7rem;
     width: 4.7rem;
+    opacity: 100%;
     background-image: url(/twiter.png);
     background-size: cover;
     transition: 0.2s;
-    animation: ani 1s 1 ease-in-out;
+    animation: ani 1.2s 1 ease-in-out;
     /* box-shadow: inset black 0px 0px 40px; */
     
   }
@@ -59,21 +76,32 @@
    box-shadow: inset black 0px 0px 0px;
   }
   @keyframes ani {
-    0%{transform: translateX(20rem);}
-    100%{transform: translateX(0rem);}
+    0%{transform: translateX(20rem);
+      opacity: 0%}
     
+    50%{transform: scale(1.4);}
+    
+    100%{transform: translateX(0rem);}
   }
-  
+
+ 
   .bgfoto{
     z-index: 1;
     clip-path: polygon(51% 49%, 100% 0%, 100% 100%, 0% 100%);
     position: absolute;
     bottom: 0;
     right: 0;
+    transform: translateX(0rem);
     height: 450px;
     width: 350px;
-    background-color: rgb(13, 114, 0);
+    background-color: rgb(7, 58, 0);
+    animation: bg 1.4s 1 ease-in-out;
   } 
+  @keyframes bg {
+    0%{transform: translateX(30rem);}
+    100%{transform: translateX(0rem);}
+  }
+
   
   
   
@@ -119,12 +147,13 @@
         background-color: rgb(13, 114, 0);
     }
     .contact{
+      
         z-index: 3;
         position: absolute;
         bottom: 0;
         right: 0;
          /* border: dashed white 4px;  */
         width: 10rem;
-        height: 23rem;
+        height: 30rem;
     }
   }
