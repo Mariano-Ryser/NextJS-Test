@@ -1,22 +1,42 @@
-import React from 'react'
+import React, {useState}from 'react'
 import styles from '../styles/Presentation.module.css'
+import Link from 'next/link';
 const presentation = () => {
+  const rot1 = 0
+  const rot2 = 45
+ 
+  const [show, setShow] = useState(false);
+  const [deg, setDeg] = useState(rot1);
+  function showme(){
+    
+    setShow(!show);
+    setDeg(deg ? rot1 : rot2)
+    
+
+
+  }
+
   return (
 <div className={styles.presentation}>
-    {/* <div className="p-name"><h1>Mariano Ryser</h1></div> */}
+    
+    <h1 id='plus' style={{transform:"rotateZ("+ deg + "deg)"}} className={styles.plus} onClick={showme} >+</h1>
 
-       {/* <a href="https://lecturaas.netlify.app/"><div className="next"></div></a> */}
-
-
+   
   {/*CONTACTO, CONTACTO, CONTACTO, CONTACTO, CONTACTO, CONTACTO, CONTACTO, */}
     <div className={styles.contact}>
 
-        <div className={styles.mobil}>
+    {show &&(
+        <div className={styles.mobil}
+        //  style={{display:"none"}}
+         >
             <a href="https://github.com/Mariano-Ryser"><div className={styles.github}></div></a>
             <a href="https://www.instagram.com/marianoryser/"><div className={styles.insta}></div></a>
             <a href="https://www.linkedin.com/in/mariano-ryser-073731221/"><div className={styles.linkedin}></div></a>
             <a href="https://twitter.com/RyserMariano"><div className={styles.twiter}></div></a>
         </div>
+    )
+   }
+
     </div>
 
     {/* FOTO, FOTO, FOTO, FOTO, FOTO, FOTO, FOTO, FOTO, FOTO, FOTO, FOTO, */}
