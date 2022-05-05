@@ -2,7 +2,7 @@ import React, {useState}from 'react'
 import styles from '../styles/Presentation.module.css'
 // import Link from 'next/link';
 
-const presentation = () => {
+const Presentation = () => {
   const rot1 = 0
   const rot2 = 45
  
@@ -46,4 +46,4 @@ const presentation = () => {
   )
 }
 
-export default presentation
+export default Presentation
