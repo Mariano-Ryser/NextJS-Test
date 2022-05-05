@@ -43,11 +43,22 @@
     transform: translateX(0%)}
 }
 .img{
-  height: 40px;
-  margin-left: 2rem;
-  margin-right: 2rem;
-  margin-top: 0.3rem;
+  margin: 1rem;
   cursor: pointer;
+
+}
+.img:hover{
+  animation: loko 0.2s infinite alternate linear;
+}
+@keyframes loko {
+  0%{
+    transform: rotateZ(10deg);
+  }
+  100%{
+    transform: rotateZ(-10deg);
+
+  }
+  
 }
 
 
