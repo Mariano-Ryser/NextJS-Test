@@ -14,7 +14,6 @@ const NavRespon = () => {
   return (
     <nav className={styles.nav}>
         
-        
         <div className={styles.img}>
           <Image
         src='/bichoWhite.png'

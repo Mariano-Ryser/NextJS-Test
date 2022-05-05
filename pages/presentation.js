@@ -1,6 +1,7 @@
 import React, {useState}from 'react'
 import styles from '../styles/Presentation.module.css'
 // import Link from 'next/link';
+
 const presentation = () => {
   const rot1 = 0
   const rot2 = 45
@@ -8,12 +9,8 @@ const presentation = () => {
   const [show, setShow] = useState(false);
   const [deg, setDeg] = useState(rot1);
   function Showme(){
-    
     setShow(!show);
     setDeg(deg ? rot1 : rot2)
-    
-
-
   }
 
   return (
