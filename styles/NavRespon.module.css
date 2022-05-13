@@ -29,8 +29,9 @@
   left: 0;
   top: 5rem;
   width: 20rem;
-  background-color: #bbbbbb;
-  border: solid rgb(124, 124, 124) 2px;
+  color: white;
+  background-color: #000000;
+  border: solid rgb(255, 252, 252) 2px;
   transition: 0.4s;
   opacity: 100%;
   animation: to 0.5s 1 ease-in-out ;
@@ -58,32 +59,24 @@
     transform: rotateZ(-10deg);
 
   }
-  
 }
 
 
   .li{
       font-size: 1.5rem;
-      color: rgb(0, 0, 0);
+      color: white;
       font-weight: 600;
       list-style: none;
-      padding: 20px 40px;
+      padding: 20px 30px;
       margin-right: 2rem;
   }
   .li:hover{
       background-color: rgb(46, 196, 46);
+      color: rgb(0, 0, 0);
       cursor: pointer;
   }
-  .logo{
-    color: rgb(34, 34, 34);
-    margin-top: 10px;
-    margin-left: 2rem;
-    margin-right: auto;
-    cursor: pointer;
-  }
-  
 
-  
+
 @media (max-width: 600px) {
   
  
@@ -101,7 +94,8 @@
   top: 5.1rem;
 
   width: 12rem;
-  background-color: #bbbbbb;
+  color: white;
+  background-color: #000000;
   border: solid rgb(102, 102, 102) 2px;
   transition: 0.4s;
   opacity: 100%;
@@ -110,7 +104,7 @@
 
   .li{
       font-size: 1rem;
-      color: rgb(0, 0, 0);
+      color: white;
       font-weight: 600;
       list-style: none;
       padding: 10px 20px;

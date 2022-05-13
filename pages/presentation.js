@@ -1,11 +1,12 @@
 import React, {useState}from 'react'
 import styles from '../styles/Presentation.module.css'
+import Image from "next/image"
 // import Link from 'next/link';
 
 const Presentation = () => {
-  const rot1 = 0
-  const rot2 = 45
- 
+  const rot1 = 0;
+  const rot2 = 45;
+
   const [show, setShow] = useState(false);
   const [deg, setDeg] = useState(rot1);
   function Showme(){
@@ -16,7 +17,12 @@ const Presentation = () => {
   return (
 <div className={styles.presentation}>
     
-    <h1 id='plus' style={{transform:"rotateZ("+ deg + "deg)"}} className={styles.plus} onClick={Showme} >+</h1>
+    <h1 style={{transform:"rotateZ("+ deg + "deg)"}} className={styles.plus} onClick={Showme} ><Image
+        src='/cruz.png'
+        alt="bicho"
+        width={50}
+        height={50}
+      /></h1>
 
    
   {/*CONTACTO, CONTACTO, CONTACTO, CONTACTO, CONTACTO, CONTACTO, CONTACTO, */}
