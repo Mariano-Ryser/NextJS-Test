@@ -1,0 +1,13 @@
+.footer{
+    display: block;
+    text-align: center;
+    padding: 5rem 0;
+    margin-top: 60px;
+    background-color: rgb(46, 46, 46);
+    border-top: 5px solid rgb(63, 63, 63);
+  }
+
+  .parrafo{
+      font-size: 7rem;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+  }
