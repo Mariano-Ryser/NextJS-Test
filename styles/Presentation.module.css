@@ -11,10 +11,9 @@
   border-radius: 0.2rem;
   transition: 0.6s;
   width: 90%;
-  height: 40%;
+  height: 70%;
   margin: 3rem 0rem 3rem 3rem;
   animation: textobox 0.7s 1 linear;
-  
 }
 @keyframes textobox {
   from{
@@ -26,6 +25,40 @@
     border-radius: 0.3rem;
   }
 }
+
+
+
+.bicho2{
+  cursor: pointer;
+  /* border: solid red 1px; */
+  z-index: 2;
+  margin: 1.7rem 2rem 0rem 2rem;
+  height: 6.5rem;
+  width: 5rem;
+  background-image: url(/bichoWhite.png);
+   background-size: 100%; 
+  background-repeat: no-repeat;
+  background-position: 0px 0px;
+  transition: 0.2s;
+  animation: anim 1.7s 1 ease-in-out;
+}
+.bicho2:hover{
+ transform: scale(1.09) rotate(3deg);
+ box-shadow: inset black 0px 0px 0px;
+}
+
+
+.box{
+  height: 20rem;
+  width: 23rem;
+  border-radius: 0.5rem;
+  background-image: url(/eje1.png);
+  background-size: cover;
+  transition: 0.5s;
+  transform: translateX(-100%);
+}
+
+
 .titulo{
   opacity: 100%;
   font-family: monospace;
@@ -172,6 +205,36 @@
     100%{transform: translateX(0rem);}
   }
 
+  .bicho{
+    cursor: pointer;
+    /* border: solid red 1px; */
+    z-index: 2;
+    margin: 1.7rem 2rem 0rem 2rem;
+    height: 6.5rem;
+    width: 5rem;
+    background-image: url(/bichoWhite.png);
+     background-size: 100%; 
+    background-repeat: no-repeat;
+    background-position: 0px 0px;
+    transition: 0.2s;
+    animation: ani 1.7s 1 ease-in-out;
+  }
+  .bicho:hover{
+   transform: scale(1.09) rotate(3deg);
+   box-shadow: inset black 0px 0px 0px;
+  }
+
+  @keyframes ani {
+    0%{transform: translateX(20rem);
+      opacity: 0%}
+    
+    50%{transform: scale(1.4);}
+    
+    100%{transform: translateX(0rem);}
+  }
+
+  
+
  
   .bgfoto{
     z-index: 1;
@@ -196,7 +259,7 @@
   
   
   @media screen and (max-width:450px){
-  
+
     .github{
         z-index: 2;
         margin: 2rem;
