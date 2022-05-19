@@ -61,7 +61,7 @@ function wantanamera(){
              <br></br>
              Porejemplo:
              <br></br>
-             var boxIcons = document.getElementById("box");
+             var boxIcons = document.getElementById(box);
                           
             <br></br> Ya eso me putea el next.
             <br></br>
@@ -81,10 +81,10 @@ function wantanamera(){
               El faltante era la ubicacion de la variable que llama al id del obejeto.
               que tiene que ir siempre adentro de la funcion especificada en la accion.
               <br></br>
-              "var boxIcons = document.getElementById("box")"
+              var boxIcons = document.getElementById(box)
 
              sin importar utilizar el mismo logo con su funcionalidad,
-             manipulamos estados atravez de preguntas."
+             manipulamos estados atravez de preguntas.
              <br></br>
 
 

@@ -30,10 +30,6 @@ const NavRespon = () => {
           <ul className={styles.ulRes}>
             <Link href="/"><li className={styles.li}>Home</li></Link>
             <Link href="/brain"><li className={styles.li}>Brain</li></Link>
-            <Link href="/"><li className={styles.li}>Home</li></Link>
-            <Link href="/"><li className={styles.li}>Home</li></Link>
-            <Link href="/"><li className={styles.li}>Home</li></Link>
-            <Link href="/"><li className={styles.li}>Home</li></Link>
             
         </ul>
       </div>
