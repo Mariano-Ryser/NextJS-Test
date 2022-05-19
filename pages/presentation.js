@@ -49,7 +49,8 @@ function wantanamera(){
         alt="bicho"
         width={50}
         height={50}
-      /></div>
+      />
+    </div>
 
         {/* CAJA DE TEXTO NEGRA */}
       {
@@ -86,6 +87,13 @@ function wantanamera(){
              sin importar utilizar el mismo logo con su funcionalidad,
              manipulamos estados atravez de preguntas.
              <br></br>
+             <p></p>
+            
+
+             <h3>Desestructurizar componentes de componentes
+             de pequeña escala con gestion de tiempo</h3>
+             
+             <p></p>
 
 
              </p>
@@ -108,10 +116,10 @@ function wantanamera(){
         <div 
         //  style={{display:"none"}}
          >
-            <a href="https://github.com/Mariano-Ryser"><div className={styles.github}></div></a>
-            <a href="https://www.instagram.com/marianoryser/"><div className={styles.insta}></div></a>
+             <a href="https://github.com/Mariano-Ryser"><div className={styles.github}></div></a>
+             <a href="https://www.instagram.com/marianoryser/"><div className={styles.insta}></div></a>
             <a href="https://www.linkedin.com/in/mariano-ryser-073731221/"><div className={styles.linkedin}></div></a>
-            <a href="https://twitter.com/RyserMariano"><div className={styles.twiter}></div></a>
+            <a href="https://twitter.com/RyserMariano"><div className={styles.twiter}></div></a> 
             <div 
             onClick={ShowmeAlien}
              className={styles.alien}></div>

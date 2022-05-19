@@ -11,7 +11,7 @@
   border-radius: 0.2rem;
   transition: 0.6s;
   width: 90%;
-  height: 70%;
+  height: 80%;
   margin: 3rem 0rem 3rem 3rem;
   animation: textobox 0.7s 1 linear;
 }
@@ -49,6 +49,7 @@
 
 
 .box{
+  position: fixed;
   height: 20rem;
   width: 23rem;
   border-radius: 0.5rem;
@@ -56,6 +57,11 @@
   background-size: cover;
   transition: 0.5s;
   transform: translateX(-100%);
+  /* box-shadow: black 10px 10px 10px,
+                black -20px 10px 10px; */
+                z-index: 99;
+}
+.box:hover{
 }
 
 
@@ -103,6 +109,7 @@
 
 
   .contact{
+    filter: blur(0.9px);
     z-index: 3;
     position: absolute;
     bottom: 0;
@@ -318,7 +325,7 @@
       border-radius: 0.2rem;
       transition: 0.6s;
       width: 92%;
-      height: 40%;
+      height: 80%;
       margin: 1rem 0rem 1rem 1rem;
       animation: textobox 0.7s 1 ease-out;
     }

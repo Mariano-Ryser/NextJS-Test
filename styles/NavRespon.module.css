@@ -29,8 +29,8 @@
   left: 0;
   top: 5rem;
   width: 20rem;
-  color: white;
-  background-color: #000000;
+  color: rgb(0, 0, 0);
+  background-color: #424242;
   border: solid rgb(255, 252, 252) 2px;
   transition: 0.4s;
   opacity: 100%;
@@ -71,7 +71,7 @@
       margin-right: 2rem;
   }
   .li:hover{
-      background-color: rgb(46, 196, 46);
+      background-color: rgb(187, 197, 38);
       color: rgb(0, 0, 0);
       cursor: pointer;
   }

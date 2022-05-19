@@ -9,7 +9,7 @@ const Brain = () => {
   return (
 <div className={styles.brain}>
     
- 
+ <h1> </h1>
     
 </div>
   )
