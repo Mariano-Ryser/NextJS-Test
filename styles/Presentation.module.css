@@ -109,7 +109,7 @@
 
 
   .contact{
-    filter: blur(0.9px);
+    /* filter: blur(0.9px); */
     z-index: 3;
     position: absolute;
     bottom: 0;

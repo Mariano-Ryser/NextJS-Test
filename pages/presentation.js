@@ -56,8 +56,8 @@ function wantanamera(){
       {
         showAlien && (
           <div className={styles.textoBox}>
-             <p className={styles.titulo}>No entiendo porque mierda..</p>
-             <p className={styles.parrafo}>-No puedo usar JS VANILLA en Next... estas cosas me hacen cuestionar todo.
+             <p className={styles.titulo}>a..</p>
+             <p className={styles.parrafo}>- puedo usar JS VANILLA en Next... estas cosas me hacen cuestionar todo.
              ptmqmp.. uno quiere codear en paz y pisa este lodo de lentitud q te raja la cabeza.
              <br></br>
              Porejemplo:
@@ -68,7 +68,7 @@ function wantanamera(){
             <br></br>
               
             Si sabes como mierda puedo hacer, dejalo en tu comentario. o llamame por telefono.
-            al +7829124u23t426349170 mandame un imail.
+            al +782 mandame un imail.
 
             Listo despues de probar y probar lo solicione!
 
@@ -103,6 +103,7 @@ function wantanamera(){
     
     {/* CAJA DE PRUEBA JS VANILLA */}
     <div id='box'
+    onClick={wantanamera}
     className={styles.box}>
           
           </div>
