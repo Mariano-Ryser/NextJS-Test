@@ -56,6 +56,7 @@ function wantanamera(){
       {
         showAlien && (
           <div className={styles.textoBox}>
+            <p>Sera contraproducente gitear y pushear todo el rato ??</p>
              <p className={styles.titulo}>a..</p>
              <p className={styles.parrafo}>- puedo usar JS VANILLA en Next... estas cosas me hacen cuestionar todo.
              ptmqmp.. uno quiere codear en paz y pisa este lodo de lentitud q te raja la cabeza.
@@ -91,12 +92,16 @@ function wantanamera(){
             
 
              <h3>Desestructurizar componentes de componentes
-             de pequeña escala con gestion de tiempo</h3>
+             de pequeña escala con gestion de tiempo.</h3>
              
-             <p></p>
+             <p> hipervinculos. </p>
 
-
+            <h1>En 5 años aproximadamente estaremos haciendo paginas
+              manipulables directamente desde el frontend
+            </h1>
              </p>
+
+             
           </div>
         )
       }
