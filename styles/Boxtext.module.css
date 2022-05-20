@@ -1,0 +1,107 @@
+.textoBox{
+    opacity: 100%;
+    padding: 1rem;
+    position: absolute;
+    background-color: rgb(0, 0, 0);
+    border: solid rgb(32, 32, 32) 7px;
+    border-radius: 0.2rem;
+    transition: 0.6s;
+    width: 90%;
+    height: 80%;
+    margin: 3rem 0rem 3rem 3rem;
+    animation: textobox 0.7s 1 linear;
+  }
+  @keyframes textobox {
+    from{
+      opacity: 0%;
+      border-radius: 0rem;
+     
+    }
+    to{
+      border-radius: 0.3rem;
+    }
+  }
+
+
+  .titulo{
+    opacity: 100%;
+    font-family: monospace;
+    font-size: 1.3rem;
+    animation: aniText 1s 1 ease-in-out;
+  }
+  .parrafo{
+    opacity: 100%;
+    font-family: monospace;
+    font-size: 1.1rem;
+    animation: aniText 1s 1 ease-in-out;
+  }
+  
+  @keyframes aniText {
+    from{
+      opacity: 0%;
+    }
+    to{
+  
+    }
+    
+  }
+
+  .bicho2{
+    cursor: pointer;
+    /* border: solid red 1px; */
+    z-index: 2;
+    margin: 1.7rem 2rem 0rem 2rem;
+    height: 6.5rem;
+    width: 5rem;
+    background-image: url(/bichoWhite.png);
+     background-size: 100%; 
+    background-repeat: no-repeat;
+    background-position: 0px 0px;
+    transition: 0.2s;
+    animation: ani 1s 1 ease-in-out;
+  }
+  .bicho2:hover{
+   transform: scale(1.09) rotate(3deg);
+   box-shadow: inset black 0px 0px 0px;
+  }
+
+  @keyframes ani {
+    0%{
+      opacity: 0%}
+    
+    50%{transform: scale(1.4);}
+    
+    100%{}
+  }
+
+
+
+  @media screen and (max-width:450px){
+
+  
+    .textoBox{
+      opacity: 100%;
+      padding: 1rem;
+      position: absolute;
+      background-color: rgb(0, 0, 0);
+      border: solid rgb(32, 32, 32) 7px;
+      border-radius: 0.2rem;
+      transition: 0.6s;
+      width: 92%;
+      height: 80%;
+      margin: 1rem 0rem 1rem 1rem;
+      animation: textobox 0.7s 1 ease-out;
+    }
+    @keyframes textobox {
+      from{
+        opacity: 0%;
+        border-radius: 0rem;
+        
+      }
+      to{
+        border-radius: 0.3rem;
+      
+      }
+      
+    }
+  }

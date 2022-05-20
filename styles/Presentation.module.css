@@ -2,29 +2,7 @@
     height: 200vh;
     /* background-color: black; */
   }
-.textoBox{
-  opacity: 100%;
-  padding: 1rem;
-  position: absolute;
-  background-color: rgb(0, 0, 0);
-  border: solid rgb(32, 32, 32) 7px;
-  border-radius: 0.2rem;
-  transition: 0.6s;
-  width: 90%;
-  height: 80%;
-  margin: 3rem 0rem 3rem 3rem;
-  animation: textobox 0.7s 1 linear;
-}
-@keyframes textobox {
-  from{
-    opacity: 0%;
-    border-radius: 0rem;
-   
-  }
-  to{
-    border-radius: 0.3rem;
-  }
-}
+
 
 
 
@@ -65,28 +43,7 @@
 }
 
 
-.titulo{
-  opacity: 100%;
-  font-family: monospace;
-  font-size: 1.3rem;
-  animation: aniText 1s 1 ease-in-out;
-}
-.parrafo{
-  opacity: 100%;
-  font-family: monospace;
-  font-size: 1.1rem;
-  animation: aniText 1s 1 ease-in-out;
-}
 
-@keyframes aniText {
-  from{
-    opacity: 0%;
-  }
-  to{
-
-  }
-  
-}
 
 .plus{
   z-index: 1;

@@ -26,11 +26,15 @@ const NavRespon = () => {
       {
         showNav &&
       <div className={styles.navToggle}
-        onMouseLeave={Mostrar}>
-          <ul className={styles.ulRes}>
-            <Link href="/"><li className={styles.li}>Home</li></Link>
-            <Link href="/brain"><li className={styles.li}>Brain</li></Link>
-            
+        // onMouseLeave={Mostrar}
+        >
+          
+        <ul className={styles.ulRes}>
+        <Link href="/"><a className={styles.li}>Info</a></Link>
+        <Link href="/"><a className={styles.li}>Data</a></Link>
+        <Link href="/"><a className={styles.li}>Weg</a></Link>
+        <Link href="/brain"><a className={styles.li}>Brain</a></Link>
+          
         </ul>
       </div>
       }
