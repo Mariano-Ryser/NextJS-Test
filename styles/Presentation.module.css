@@ -67,6 +67,25 @@
    transform: scale(1.09) rotate(3deg);
    box-shadow: inset black 0px 0px 0px;
   }
+
+  .sound{
+    z-index: 2;
+    margin: 1.5rem 2rem 2rem 2rem;
+    height: 5rem;
+    width: 5rem;
+    background-image: url(/sound.png);
+    background-size: cover;
+    transition: 0.2s;
+    animation: ani 0.3s 1 ease-in-out;
+    cursor: grab;
+    cursor: grabbing;
+    cursor: nw-resize;
+    /* cursor: crosshair; */
+  }
+  .sound:hover{
+   transform: scale(1.09) rotate(3deg);
+   box-shadow: inset black 0px 0px 0px;
+  }
   .construccion{
     border: solid 1px rgb(77, 77, 77);
     padding: 1rem;
