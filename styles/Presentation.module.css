@@ -104,6 +104,7 @@
   }
   .construccion:hover{
     border: solid 1px rgb(131, 131, 131);
+    background-color: rgb(34, 34, 34);
     cursor: pointer;
     z-index: 2;
     opacity: 98%;
