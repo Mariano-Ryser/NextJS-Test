@@ -1,4 +1,5 @@
 .textoBox{
+  z-index: 2;
     opacity: 100%;
     padding: 1rem;
     position: absolute;

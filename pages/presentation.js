@@ -65,6 +65,15 @@ function wantanamera(){
     onClick={wantanamera}
     className={styles.box}>
           </div>
+
+    <div className={styles.construccion}>
+      Nada intereSantE! <br></br>
+     ... Nada parA vEr!
+    </div>
+
+    <div className={styles.articulo1}>
+      
+       </div>
    
   {/*CONTACTO, CONTACTO, CONTACTO, CONTACTO, CONTACTO, CONTACTO, CONTACTO, */}
     

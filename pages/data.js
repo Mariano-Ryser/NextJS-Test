@@ -1,18 +1,18 @@
 import React, {useState}from 'react'
-import styles from '../styles/Brain.module.css'
+import styles from '../styles/Data.module.css'
 import Image from "next/image"
 // import Link from 'next/link';
 
-const Brain = () => {
+const Data = () => {
  
 
   return (
-<div className={styles.brain}>
+<div className={styles.data}>
     
- <h1>Ce</h1>
+ <h1> Daton</h1>
     
 </div>
   )
 }
 
-export default Brain
+export default Data
