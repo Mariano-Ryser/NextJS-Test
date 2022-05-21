@@ -9,8 +9,11 @@ const Data = () => {
   return (
 <div className={styles.data}>
     
- <h1> Daton</h1>
-    
+ <h1> Daton</h1>  
+              <div className={styles.data1}></div>
+              <div className={styles.data2}></div>
+              <div className={styles.data3}></div>
+              <div className={styles.data4}></div>
 </div>
   )
 }

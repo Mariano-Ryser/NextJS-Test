@@ -9,8 +9,8 @@ const Brain = () => {
   return (
 <div className={styles.brain}>
     
- <h1>Ce</h1>
-    
+ <h1>cd One Drive/Desktop/nextapp/code . and npm run dev</h1>
+ <div className={styles.lotenes}></div>
 </div>
   )
 }
