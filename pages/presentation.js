@@ -65,11 +65,23 @@ function wantanamera(){
     onClick={wantanamera}
     className={styles.box}>
           </div>
-
     <div className={styles.construccion}>
       Nada intereSantE! <br></br>
      ... Nada parA vEr!
     </div>
+    <div className={styles.construccion}>
+      peroo! <br></br>
+     ... Aunque heute ist mein geburstag <br></br> <a>22 - 05 - 1991</a> 
+    </div>
+    <div className={styles.construccion}>
+      undd! <br></br>
+     ... mein geburstag huete ist. 
+    </div>
+    <div className={styles.construccion}>
+      ! <br></br>
+     ... eigentlich wenig . 
+    </div>
+
 
     <div className={styles.articulo1}>
       
@@ -84,16 +96,22 @@ function wantanamera(){
         <div 
         //  style={{display:"none"}}
          >
-             <a href="https://github.com/Mariano-Ryser"><div className={styles.github}></div></a>
-             <a href="https://www.instagram.com/marianoryser/"><div className={styles.insta}></div></a>
-            <a href="https://www.linkedin.com/in/mariano-ryser-073731221/"><div className={styles.linkedin}></div></a>
-            <a href="https://twitter.com/RyserMariano"><div className={styles.twiter}></div></a> 
             <div 
             onClick={ShowmeAlien}
              className={styles.alien}></div>
              <div 
             onClick={wantanamera}
              className={styles.bicho}></div>
+             <div 
+            // onClick={wantanamera}
+             className={styles.paint}></div>
+             <a href="https://github.com/Mariano-Ryser"><div className={styles.github}></div></a>
+             <a href="https://www.instagram.com/marianoryser/"><div className={styles.insta}></div></a>
+            <a href="https://www.linkedin.com/in/mariano-ryser-073731221/"><div className={styles.linkedin}></div></a>
+        
+            {/* <a href="/Virtualdj"><div className={styles.twiter}></div></a> 
+            <a href="/soundclound"><div className={styles.twiter}></div></a>  */}
+           
         </div>
     )
    }
