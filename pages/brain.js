@@ -9,22 +9,25 @@ const Brain = () => {
   return (
 <div className={styles.brain}>
     
- <h1 className={styles.h1}>cd One Drive/Desktop/nextapp/code . and npm run dev</h1>
- <p className={styles.p}>El cerebro interactua constantemente con una matriz informacional, 
-   de tipo olografico, algunos le llaman el <a href='https://es.wikipedia.org/wiki/Teor%C3%ADa_cu%C3%A1ntica_de_campos'>campo cuantico</a>, campo sintergico,
-   los fisocos le llaman tambien campo pre espacial.
-   A parti de esta interaccion del cerebro con este campo informacional, como una 
-   resultante final del procesamiento cerebral aparece la realidad perseptual,
-   tal y como la conocemos, los objetos, las formas, los colores.
+ <h1 className={styles.h1}>Evolucion e Interacion Inteligente de Materia y Espacio</h1>
+ <p className={styles.p}>La constante interacion de nuestro cerebro con la matriz olografica informacional.
+   comunmente hoy llamado <a href='https://es.wikipedia.org/wiki/Teor%C3%ADa_cu%C3%A1ntica_de_campos'>campo cuantico</a>, campo sintergico, campo pre espacial.
+  Da lugar a la realidad perceptual como resultante final de su procesamiento o <a href='https://de.wikipedia.org/wiki/Dekodierer'>decodificacion</a>.
+    ..Los objetos, las formas, los colores.
    La informacion de estos objetos se encuentra en esta matriz informacional.
-
    <br></br>
-   El ser humano se encuentra en el punto final de este procesamiento cerebral,
-   que es la realidad que vemos, pero no tenemos acceso al procesamiento.
-   son tantas las operaciones que realiza nuestro cerebro para lograr este milagro que es la vida cotidiana.
+   Analizando la interaccion, el almacenamiento,el procesamiento, y la resultante final de este comportamiento,
+   se puede decir que estamos ante un cerebro materializado con inteligencia y capacidades ilimitadas desde su comienzo.
+    Este enrejado abarca la totalidad del espacio y sus dimensiones.
+   <br></br>
+   <br></br>
+   -Estaba llegando a un grado tal de desesperecion que sentia que iba a explotar. <br></br>
+Habia buscado durante años y no habia ocurrido nada.<br></br>
+Tomo un hacha y empezo a destruir el trabajo de toda su vida.<br></br>
+Al terminar se dirigio a la montaña decidido a vivir como un ermitaño. -<br></br>
+   <br></br> --- La batalla por el templo -JB 1991
 
-   Ante este Analisis de interaccion, almacenamiento, procesamiento, y resultado final de nuestro cerebro,
-   se puede decir que estamos ante en cerebro materializado con inteligencia y capacidades ilimitadas.
+
 
 
 

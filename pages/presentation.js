@@ -93,10 +93,10 @@ function wantanamera(){
             // onClick={wantanamera}
              className={styles.paint}></div>
              </a>
-             <a href="https://github.com/Mariano-Ryser"><div className={styles.github}></div></a>
+             {/* <a href="https://github.com/Mariano-Ryser"><div className={styles.github}></div></a>
              <a href="https://www.instagram.com/marianoryser/"><div className={styles.insta}></div></a>
             <a href="https://www.linkedin.com/in/mariano-ryser-073731221/"><div className={styles.linkedin}></div></a>
-            <a href="https://soundcloud.com/"><div className={styles.sound}></div></a>
+            <a href="https://soundcloud.com/"><div className={styles.sound}></div></a> */}
         
             {/* <a href="/Virtualdj"><div className={styles.twiter}></div></a> 
             <a href="/soundclound"><div className={styles.twiter}></div></a>  */}
