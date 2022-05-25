@@ -69,23 +69,10 @@ function wantanamera(){
       Nada intereSantE! <br></br>
      ... Nada parA vEr!
     </div>
-    <div className={styles.construccion}>
-      peroo! <br></br>
-     ... Aunque heute ist mein geburstag <br></br> <a>22 - 05 - 1991</a> 
-    </div>
-    <div className={styles.construccion}>
-      undd! <br></br>
-     ... mein geburstag huete ist. 
-    </div>
-    <div className={styles.construccion}>
-      ! <br></br>
-     ... eigentlich wenig . 
-    </div>
+   
 
 
-    <div className={styles.articulo1}>
-      
-       </div>
+    
    
   {/*CONTACTO, CONTACTO, CONTACTO, CONTACTO, CONTACTO, CONTACTO, CONTACTO, */}
     
