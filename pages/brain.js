@@ -25,7 +25,7 @@ const Brain = () => {
 Habia buscado durante años y no habia ocurrido nada.<br></br>
 Tomo un hacha y empezo a destruir el trabajo de toda su vida.<br></br>
 Al terminar se dirigio a la montaña decidido a vivir como un ermitaño. -<br></br>
-   <br></br> --- La batalla por el templo -JB 1991
+   <br></br> --- -JB 1991
 
 
 
