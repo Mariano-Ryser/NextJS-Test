@@ -21,11 +21,12 @@ const Brain = () => {
     Este enrejado abarca la totalidad del espacio y sus dimensiones.
    <br></br>
    <br></br>
-   -Estaba llegando a un grado tal de desesperecion que sentia que iba a explotar. <br></br>
+   {/* -Estaba llegando a un grado tal de desesperecion que sentia que iba a explotar. <br></br>
 Habia buscado durante años y no habia ocurrido nada.<br></br>
 Tomo un hacha y empezo a destruir el trabajo de toda su vida.<br></br>
-Al terminar se dirigio a la montaña decidido a vivir como un ermitaño. -<br></br>
-   <br></br> --- -JB 1991
+Al terminar se dirigio a la montaña decidido a vivir como un ermitaño. -<br></br> */}
+
+  <br></br> --- -JB 1991 
 
 
 
