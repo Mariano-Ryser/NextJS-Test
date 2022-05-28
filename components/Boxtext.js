@@ -42,6 +42,7 @@ function wantanamera(){
 
             <br></br>Porejemplo
             <br></br>
+            Tire texto do.
             <div 
             onClick={wantanamera}
              className={styles.bicho2}></div>
