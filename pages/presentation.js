@@ -66,12 +66,15 @@ function wantanamera(){
     className={styles.box}>
           </div>
     <div className={styles.construccion}>
-      Nada intereSantE! <br></br>
+      <a href='https://www.madagascar-tribune.com/'></a>
+      Nada o si! <br></br>
      ... Nada parA vEr!
     </div>
+
     <div className={styles.construccion}>
-     Interfaz Grafica - Datos <br></br>
-     ... de procesamiento cuantico - Frecuencia - interaccion.
+      <a href='https://es.wikipedia.org/wiki/Estado_cu%C3%A1ntico'>Interfaz Grafica - Datos <br></br>
+     ... de procesamiento cuantico - Frecuencia - interaccion.</a>
+     
     </div>
     <div className={styles.construccion}>
      --- <br></br>
