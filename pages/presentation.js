@@ -66,13 +66,13 @@ function wantanamera(){
     className={styles.box}>
           </div>
     <div className={styles.construccion}>
-      <a href='https://www.madagascar-tribune.com/'></a>
+      <a  className={styles.a} href='https://www.madagascar-tribune.com/'>
       Nada o si! <br></br>
-     ... Nada parA vEr!
+     ... Nada parA vEr!</a>
     </div>
 
     <div className={styles.construccion}>
-      <a href='https://es.wikipedia.org/wiki/Estado_cu%C3%A1ntico'>Interfaz Grafica - Datos <br></br>
+      <a className={styles.a} href='https://es.wikipedia.org/wiki/Estado_cu%C3%A1ntico'>Interfaz Grafica - Datos <br></br>
      ... de procesamiento cuantico - Frecuencia - interaccion.</a>
      
     </div>
