@@ -69,6 +69,14 @@ function wantanamera(){
       Nada intereSantE! <br></br>
      ... Nada parA vEr!
     </div>
+    <div className={styles.construccion}>
+     Interfaz Grafica - Datos <br></br>
+     ... de procesamiento cuantico - Frecuencia - interaccion.
+    </div>
+    <div className={styles.construccion}>
+     --- <br></br>
+     ... --- .
+    </div>
    
 
 
