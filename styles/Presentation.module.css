@@ -104,7 +104,6 @@
     color: rgb(187, 197, 38);;
     animation: nada 1s 1 ease-in-out;
     transform: translateX(0%);
-
   }
   .construccion:hover{
     border: solid 2px rgb(24, 180, 241);
@@ -128,6 +127,13 @@
     50%{}
     100%{}
   }
+
+  /* .glass{
+    z-index: -1;
+      border-radius: 10px;
+       filter: blur(1px); 
+  } */
+
   .insta{
     z-index: 2;
     margin: 2rem;

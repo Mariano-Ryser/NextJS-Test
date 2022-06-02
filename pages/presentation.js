@@ -65,7 +65,7 @@ function wantanamera(){
     onClick={wantanamera}
     className={styles.box}>
           </div>
-    <div className={styles.construccion}>
+    {/* <div className={styles.construccion}>
       <a  className={styles.a} href='https://www.madagascar-tribune.com/'>
       Nada o si! <br></br>
      ... Nada parA vEr!</a>
@@ -79,7 +79,7 @@ function wantanamera(){
     <div className={styles.construccion}>
      --- <br></br>
      ... --- .
-    </div>
+    </div> */}
    
 
 
@@ -91,7 +91,7 @@ function wantanamera(){
     <div className={styles.contact}>
 
     {show &&(
-        <div 
+        <div className={styles.glass}
         //  style={{display:"none"}}
          >
             <div 

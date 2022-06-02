@@ -22,7 +22,7 @@ function wantanamera(){
   }
   return (
     <div className={styles.textoBox}>
-            
+{/*             
              <p className={styles.titulo}>a..</p>
              <p className={styles.parrafo}>- puedo usar JS VANILLA en Next... estas cosas me hacen cuestionar todo.
              ptmqmp.. uno quiere codear en paz y pisa este lodo de lentitud q te raja la cabeza.
@@ -63,7 +63,7 @@ function wantanamera(){
             
              </p>
 
-             
+              */}
 
              
           </div>
