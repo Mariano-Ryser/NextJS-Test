@@ -5,23 +5,8 @@ import Boxtext from '../components/Boxtext'
 // import Link from 'next/link';
 
   const Presentation = () => {
-  const rot1 = 0;
-  const rot2 = 45;
-
-  const [show, setShow] = useState(false);
-  const [deg, setDeg] = useState(rot1);
-  function Showme(){
-    setShow(!show);
-    setDeg(deg ? rot1 : rot2)
-  }
-
-
-  const [showAlien, setShowAlien] = useState(false);
-  function ShowmeAlien(){
-    setShowAlien(!showAlien);
-  }
-
-  // ABRE EL MENU DE PROYECTOS
+    
+   // ABRE EL MENU DE PROYECTOS
 function wantanamera(){
   var boxIcons = document.getElementById("box")
 
@@ -40,14 +25,33 @@ function wantanamera(){
     
     }
 }
+  const rot1 = 0;
+  const rot2 = 45;
+
+  const [show, setShow] = useState(false);
+  const [deg, setDeg] = useState(rot1);
+  function Showme(){
+    setShow(!show);
+    setDeg(deg ? rot1 : rot2)
+  }
+
+
+  const [showAlien, setShowAlien] = useState(false);
+  function ShowmeAlien(){
+    setShowAlien(!showAlien);
+  }
+
+ 
 
   return (
 <div className={styles.presentation}>
-    
+
+  {/* Cruz Right */}
+
     <div style={{transform:"rotatez("+ deg + "deg)"}}
-     className={styles.plus} onClick={Showme} ><Image
+        className={styles.plus}
+        onClick={Showme} ><Image
         src='/cruz.png'
-        alt="bicho"
         width={50}
         height={50}
       />
@@ -98,13 +102,15 @@ function wantanamera(){
              <a href="https://www.instagram.com/marianoryser/"><div className={styles.insta}></div></a>
             <a href="https://www.linkedin.com/in/mariano-ryser-073731221/"><div className={styles.linkedin}></div></a>
             <a href="https://soundcloud.com/"><div className={styles.sound}></div></a> 
+            <a href="https://nodejs.dev/learn"><div className={styles.node}></div></a> 
+            <a href="https://www.microsoft.com/de-ch/"><div className={styles.microsoft}></div></a> 
             <div 
             onClick={ShowmeAlien}
              className={styles.alien}></div>
              <div 
             onClick={wantanamera}
              className={styles.bicho}></div>
-            <a href='https://de.wikipedia.org/wiki/Microsoft_Paint'> <div 
+            <a href='https://apps.microsoft.com/store/detail/paint-3d/9NBLGGH5FV99?hl=de-ch&gl=CH'> <div 
             // onClick={wantanamera}
              className={styles.paint}></div>
              </a>
