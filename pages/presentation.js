@@ -35,7 +35,6 @@ function wantanamera(){
     setDeg(deg ? rot1 : rot2)
   }
 
-
   const [showAlien, setShowAlien] = useState(false);
   function ShowmeAlien(){
     setShowAlien(!showAlien);
@@ -84,11 +83,7 @@ function wantanamera(){
      --- <br></br>
      ... --- .
     </div> */}
-   
-
-
     
-   
   {/*CONTACTO, CONTACTO, CONTACTO, CONTACTO, CONTACTO, CONTACTO, CONTACTO, */}
     
     
