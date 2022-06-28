@@ -22,7 +22,8 @@ const NavRespon = () => {
         height={40}
         onClick={Mostrar}
       /> */}
-      <h1 className={styles.logo}
+      <h1 
+      className={styles.logo}
       onClick={Mostrar}>EL SALO!</h1>
         </div> 
       {

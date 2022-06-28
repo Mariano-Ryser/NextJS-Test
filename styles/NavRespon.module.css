@@ -31,8 +31,6 @@
   font-size: 1.5rem;
   font-weight: 600;
   cursor: pointer;
-  font-family: 'Fredoka', sans-serif;
-font-family: 'Shadows Into Light', cursive;
 }
 
 .navToggle{
@@ -61,21 +59,7 @@ font-family: 'Shadows Into Light', cursive;
 .img{
   margin: 1rem;
   cursor: pointer;
-
 }
-.img:hover{
-  animation: loko 0.2s infinite alternate linear;
-}
-@keyframes loko {
-  0%{
-    transform: rotateZ(10deg);
-  }
-  100%{
-    transform: rotateZ(-10deg);
-
-  }
-}
-
 
   .li{
       font-size: 1.5rem;
@@ -121,7 +105,7 @@ font-family: 'Shadows Into Light', cursive;
 }
 
   .li{
-      font-size: 1.3rem;
+      font-size: 1.1rem;
       color: white;
       font-weight: 600;
       list-style: none;
@@ -137,9 +121,9 @@ font-family: 'Shadows Into Light', cursive;
   }
   .logo{
     color: rgb(255, 255, 255);
-    margin-left: 1rem;
+    margin-left: 0.5rem;
     margin-right: auto;
-    font-size: 2.5rem;
+    font-size: 2.2rem;
     font-weight: 600;
     cursor: pointer;
     font-family: 'Fredoka', sans-serif;
