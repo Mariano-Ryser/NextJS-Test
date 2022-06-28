@@ -24,6 +24,17 @@
   }
 } */
 
+.logo{
+  color: rgb(255, 255, 255);
+  margin-left: 1rem;
+  margin-right: auto;
+  font-size: 1.5rem;
+  font-weight: 600;
+  cursor: pointer;
+  font-family: 'Fredoka', sans-serif;
+font-family: 'Shadows Into Light', cursive;
+}
+
 .navToggle{
   position: absolute;
   display: flex;
@@ -73,6 +84,7 @@
       text-decoration: none;
       padding: 20px 30px;
       margin-right: 2rem;
+      
 
   }
   .li:hover{
@@ -109,24 +121,29 @@
 }
 
   .li{
-      font-size: 1rem;
+      font-size: 1.3rem;
       color: white;
       font-weight: 600;
       list-style: none;
       padding: 10px 20px;
       margin-right: 0.4rem;
+      font-family: 'Fredoka', sans-serif;
+      font-family: 'Shadows Into Light', cursive;
+      
   }
   .li:hover{
       background-color: rgb(50, 202, 30);
       cursor: pointer;
   }
   .logo{
-    color: rgb(34, 34, 34);
+    color: rgb(255, 255, 255);
     margin-left: 1rem;
     margin-right: auto;
-    font-size: 1.5rem;
+    font-size: 2.5rem;
     font-weight: 600;
     cursor: pointer;
+    font-family: 'Fredoka', sans-serif;
+font-family: 'Shadows Into Light', cursive;
   }
   
 }

@@ -15,13 +15,15 @@ const NavRespon = () => {
     <nav className={styles.nav}>
         
         <div className={styles.img}>
-          <Image
+          {/* <Image
         src='/bichoWhite.png'
         alt="bicho"
         width={50}
         height={40}
         onClick={Mostrar}
-      />
+      /> */}
+      <h1 className={styles.logo}
+      onClick={Mostrar}>EL SALO!</h1>
         </div> 
       {
         showNav &&
