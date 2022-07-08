@@ -10,7 +10,7 @@ const Brain = () => {
 <div className={styles.brain}>
     
  {/* <h1 className={styles.h1}>Evolucion e Interacion Inteligente de Materia y Espacio</h1> */}
- <p className={styles.p}>Laion de non la matracio.
+ <p className={styles.p}>
    {/* comunmente hoy llamado <a href='https://es.wikipedia.org/wiki/Teor%C3%ADa_cu%C3%A1ntica_de_campos'>campo cuantico</a>, campo sintergico, campo pre espacial.
   Da lugar a la realidad perceptual como resultante final de su procesamiento o <a href='https://de.wikipedia.org/wiki/Dekodierer'>decodificacion</a>.
     ..Los objetos, las formas, los colores.

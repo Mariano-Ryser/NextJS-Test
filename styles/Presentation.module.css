@@ -27,7 +27,7 @@
   font-size: 4rem;
   color: rgb(189, 189, 189);
   cursor: pointer;
-  transition: 0.7s;
+  transition: 0.2s;
 }
 .plus:hover{
   display: inline-block;

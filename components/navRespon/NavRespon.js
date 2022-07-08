@@ -24,7 +24,7 @@ const NavRespon = () => {
       /> */}
       <h1 
       className={styles.logo}
-      onClick={Mostrar}>EL SALO!</h1>
+      onClick={Mostrar}>V</h1>
         </div> 
       {
         showNav &&

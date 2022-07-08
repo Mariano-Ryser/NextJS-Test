@@ -9,9 +9,7 @@ import Boxtext from '../components/Boxtext'
    // ABRE EL MENU DE PROYECTOS
 function wantanamera(){
   var boxIcons = document.getElementById("box")
-
-  if(boxIcons.style.transform === "translateX(0%)"){
-    
+  if(boxIcons.style.transform == "translateX(0%)"){
     boxIcons.style.transform = "translateX(-100%)";
     setTimeout(() => {
       boxIcons.style.display = "none"
@@ -22,19 +20,16 @@ function wantanamera(){
     setTimeout(() => {
       boxIcons.style.transform = "translateX(0%)";
   }, 150);
-    
     }
 }
   const rot1 = 0;
   const rot2 = 45;
-
   const [show, setShow] = useState(false);
   const [deg, setDeg] = useState(rot1);
   function Showme(){
     setShow(!show);
     setDeg(deg ? rot1 : rot2)
   }
-
   const [showAlien, setShowAlien] = useState(false);
   function ShowmeAlien(){
     setShowAlien(!showAlien);
@@ -44,9 +39,7 @@ function wantanamera(){
 
   return (
 <div className={styles.presentation}>
-
   {/* Cruz Right */}
-
     <div style={{transform:"rotatez("+ deg + "deg)"}}
         className={styles.plus}
         onClick={Showme} ><Image
@@ -65,9 +58,9 @@ function wantanamera(){
     
     {/* CAJA DE PRUEBA JS VANILLA */}
     <div id='box'
-    onClick={wantanamera}
-    className={styles.box}>
-          </div>
+        onClick={wantanamera}
+        className={styles.box}>
+    </div>
     {/* <div className={styles.construccion}>
       <a  className={styles.a} href='https://www.madagascar-tribune.com/'>
       Nada o si! <br></br>
